@@ -232,4 +232,39 @@
         width: calc(100%/3);
         padding: 5px;
     }
+    .contact form textarea {
+       position: relative;
+       width: 300px;
+       justify-content: center;
+    }
+    .contact form button {
+        margin-right: -200px;
+        padding: 10px 25px;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .info img {
+        width: 150px;
+    }
+    .galleryDevided {
+        display:flex;
+        flex-direction: column;
+        width: 200px;
+        border:none;
+        box-shadow: none;
+    }
+    .galleryDevided h1 {
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+    .galleryDevided img {
+    position:flex;
+    flex-direction: column; 
+    width: auto;   
+    }
 }
