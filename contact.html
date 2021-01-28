@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PodróżOla</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
-    <header>
-        <h1><img src="img/monogram.jpg"></h1>
-    </header>
-    <nav>
-        <li><a href="/oMnie.html"> O mnie </a></li>
-        <li><a href= "portfo.html">Portfolio</a></li>
-        <li><a href= "contact.html"> Kontakt</a></li>
-    </nav>
-<main>
-    <p><h1>Kontakt</h1>  
-    </p>
-    <form<<textarea>
-        "jakiś tekst"
-    </textarea>
-   <button> <div class="button_send">
-        <h4>Wyślij</h4>
-    </button>
-</main>
 
-</a>
-<a href="https://www.instagram.com/">
-    <img src="img/insta.png">
-</a>
-<a href="https://twitter.com/?lang=pl">
-    <img src="img/twitt.png">
-</a>
+<body>
+    <header class="header">
+        <div class="monogram">
+            <img src="img/monogram.jpg">
+        </div>
+        <nav class="bar">
+            <li><a href="/oMnie.html"> O mnie </a></li>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="contact.html"> Kontakt</a></li>
+        </nav>
+    </header>
+    <main>
+        <div class="contact">
+            <h1>Kontakt</h1>
+            <form>
+                <textarea name="message" rows="30" cols="80" placeholder="Napisz coś do mnie..."></textarea><br>
+                <button type="button" onclick="alert('Wiadomość przesłana')">Wyślij</button>
+            </form>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/"><img src="img/facebook.svg"></a>
+            <a href="https://www.instagram.com/"><img src="/img/instagram.svg"></a>
+            <a href="https://twitter.com/?lang=pl"><img src="img/twitter.svg"></a>
+        </div>
+    </main>
+</body>
+
+</html>

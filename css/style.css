@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -53,7 +57,6 @@
 
 .cities img {
     position: relative;
-    /* left: calc(100%/3); */
     width: 950px;
 }
 
@@ -61,6 +64,7 @@
     position: relative;
     left: 5%;
 }
+
 .cityNames a {
     position: relative;
     text-decoration: none;
@@ -81,6 +85,34 @@
     width: calc(100%/6);    
 }
 
+.galleryDevided {
+    margin-top: 30px;
+    display: inline-block;
+    position: relative;
+    border: 3px solid #F2F2F2;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1024px;
+    left: 25%;
+    padding-bottom: 30px;
+}
+
+.galleryDevided h1 {
+    font-weight: 900;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galleryDevided img {
+    width: calc(100%/4);
+    position: relative;
+    left: 10%;
+    padding-right: 25px;
+    margin-top: 15px;
+    height: 175px;
+}
+
 .social {
     display: flex;
     flex-direction: column;
@@ -89,4 +121,45 @@
 .social a img {
     width: 50px;
     padding-bottom: 15px;
+}
+
+.info {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.info img {
+    width: 400px;
+    margin: 0 60px;
+}
+
+.text {
+    font-size: xx-large;
+    color: plum;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 30px;
+    display: block
+}
+
+.contact h1 {
+    font-size: xx-large;
+    color: plum;
+    text-align: center;
+}
+
+.contact form {
+    text-align: center;
+}
+
+.contact form button {
+    background-color: #F2F2F2;
+    color: #828282;
+    font-weight: 900;
+    padding: 12px 35px;
+    margin-top: 20px;
+    margin-right: -450px;
 }
